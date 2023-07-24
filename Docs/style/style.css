@@ -1,0 +1,148 @@
+*{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: url("/resource/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.head{
+    display: flex;
+
+}
+
+.head > *{
+    flex: 1 0 auto;
+}
+.head_list{
+    display: flex;
+    list-style: none;
+}
+.head_list > *{
+    flex-grow: 1;
+    font-size: 20px;
+}
+.content_img{
+  display: flex;
+
+  justify-content: center;
+}
+.netflix{
+    width: 150px;
+    height: 50px;
+}
+.head_search{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.head_search input{
+ border: 1px solid #aaa;
+ width: 300px;
+ height: 30px;
+ background-color: transparent;
+    padding-left: 20px; /* Ajusta el padding a la izquierda para el icono */
+    background-image: url("/resource/icons8_Search_32.png"); /* Agrega la ruta a tu icono personalizado */
+    background-position: left center; /* Ajusta la posición del icono */
+    background-repeat: no-repeat; /* Evita que el icono se repita */
+    border: none; /* Quita el borde del botón */
+    color: white; /* Establece el color de texto en blanco */
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus necesidades */
+    border: 3px solid rgba(255, 255, 255, .3);
+
+}
+/* Here starts the body of the page*/
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+.relleno{
+    height: 200px;
+}
+.Nseries {
+    display: flex;
+    align-items: center;
+
+}
+.body_img_N{
+    width: 35px;
+    height: 35px;
+}
+
+.body_img_logo{
+    height: 120px;
+    width: 450px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.logo_list{
+    display: flex;
+    list-style: none;
+}
+.logo_list > *{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.logo_list_red{
+    background-color: #fd0000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+.info{
+    display: flex;
+    width: 550px;
+}
+.buttons{
+    font-size: ;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 85px 85px;
+    grid-template-rows: 28px 50px;
+
+}
+
+.button_play{
+    margin-right: 4px;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: #fd0000;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.button_MyList{
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.button_MyList:hover{
+    background-color: #fd0000;
+}
+
+.play{
+    grid-column: 1/3;
+    background-color: transparent;
+    padding-left: 20px; /* Ajusta el padding a la izquierda para el icono */
+    background-image: url("/resource/icons8_Circled_Play_48.png"); /* Agrega la ruta a tu icono personalizado */
+    background-position: left center; /* Ajusta la posición del icono */
+    background-repeat: no-repeat; /* Evita que el icono se repita */
+    border: none; /* Quita el borde del botón */
+    color: white; /* Establece el color de texto en blanco */
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus necesidades */
+}
